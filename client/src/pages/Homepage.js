@@ -10,7 +10,7 @@ const Homepage = () => {
   const navigate = useNavigate();
   return (
     <>
-      <Box sx={{ display: "flex", flexDirection: "row" }}>
+      <Box sx={{ display: "flex", flexDirection: "row", flexWrap: "wrap" }}>
         <Box p={2}>
           <Typography variant="h4" mb={2} fontWeight="bold">
             Text Generation
